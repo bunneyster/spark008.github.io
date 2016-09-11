@@ -1,0 +1,27 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  cursor: url("otter_roll.png"), auto;
+}
+
+#main-otter {
+  cursor: -webkit-image-set(
+    url("pink_clam_1x.png") 1x,
+    url("pink_clam_2x.png") 2x
+  ), auto;
+  z-index: 1;
+}
+
+#otter-sound {
+  display: none;
+}
